@@ -2,69 +2,122 @@
 <html lang="pt-br">
 
 <head>
-    <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-            <link rel="preconnect" href="https://fonts.googleapis.com">
-                <title>Portfólio | Ana Beatriz Oliveira Mota</title>
-                    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css" rel="stylesheet">
-                        <link rel="stylesheet"
-                                href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.3/font/bootstrap-icons.min.css">
-                                    <link rel="stylesheet" href="styles.css">
-                                    </head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Portfólio | Beatriz Oliveira</title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.3/font/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
 
-                                    <body>
-                                        <header class="p-5">
+<body class="bg-light text-dark">
 
-                                                <nav class="container d-flex justify-content-between align-items-center">
-                                                            <h1 class="fw-bold">Ana Beatriz Oliveira Mota</h1>
-                                                                        <ul class="nav mt-5">
-                                                                                        <li class="nav-item"><a class="nav-link" href="#inicio">Início</a></li>
-                                                                                                        <li class="nav-item"><a class="nav-link" href="#sobre">Sobre</a></li>
-                                                                                                                        <li class="nav-item"><a class="nav-link" href="#galeria">Galeria</a></li>
-                                                                                                                                        <li class="nav-item"><a class="nav-link" href="#contato">Contato</a></li>
-                                                                                                                                                    </ul>
+  <!-- Cabeçalho -->
+  <header class="p-3 bg-dark text-light shadow-sm">
+    <nav class="container d-flex justify-content-between align-items-center">
+      <h1 class="fw-bold">Beatriz Oliveira</h1>
+      <ul class="nav">
+        <li class="nav-item"><a class="nav-link text-light" href="#inicio">Início</a></li>
+        <li class="nav-item"><a class="nav-link text-light" href="#sobre">Sobre</a></li>
+        <li class="nav-item"><a class="nav-link text-light" href="#galeria">Artes</a></li>
+        <li class="nav-item"><a class="nav-link text-light" href="#contato">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
 
-                                                                                                                                                                <div id="acessibilidade" class="menu-acessibilidade">
-                                                                                                                                                                                <button id="botao-acessibilidade" class="btn btn-primary rotacao-botao fw-bold">Acessibilidade</button>
-                                                                                                                                                                                                <div id="opcoes-acessibilidade" class="opcoes-acessibilidade apresenta-lista ">
-                                                                                                                                                                                                                    <button id="aumentar-fonte" class="btn btn-primary fw-bold">A +</button>
-                                                                                                                                                                                                                                        <button id="diminuir-fonte" class="btn btn-primary fw-bold">A -</button>
-                                                                                                                                                                                                                                                        </div>
-                                                                                                                                                                                                                                                                    </div>
-                                                                                                                                                                                                                                                                            </nav>
+  <main class="container my-5">
 
-                                                                                                                                                                                                                                                                                </header>
+    <!-- Início -->
+    <section id="inicio" class="my-5">
+      <div class="p-5 rounded-5 text-center shadow-lg bg-primary text-light">
+        <h1 class="display-4 fw-bold">Arte que inspira</h1>
+        <p class="lead mt-3">Cada obra exibida neste portfólio foi criada por mim, Beatriz Oliveira, com dedicação e carinho.</p>
+        <a href="#galeria" class="btn btn-outline-light btn-lg mt-3 fw-semibold">Explorar artes</a>
+      </div>
+    </section>
 
-                                                                                                                                                                                                                                                                                    <main class="container my-5">
+    <!-- Sobre -->
+    <section id="sobre" class="my-5 pt-6">
+      <div class="row align-items-center g-4">
+        <div class="col-md-4 text-center">
+          <img src="ini.webp.jpg" class="rounded-pill shadow" alt="Foto de perfil de Beatriz Oliveira"
+            width="250" height="300" loading="lazy">
+        </div>
+        <div class="col-md-8">
+          <h2>Sobre mim</h2>
+          <p>Olá! Meu nome é <strong>Beatriz Oliveira</strong> e sou artista visual. Cada obra apresentada aqui foi feita exclusivamente por mim, explorando diferentes estilos e técnicas de desenho.</p>
+          <p>Meu objetivo é criar ilustrações que transmitam emoções, contem histórias e inspirem quem as observa. Este portfólio mostra algumas das minhas artes autorais.</p>
+        </div>
+      </div>
+    </section>
 
-                                                                                                                                                                                                                                                                                            <!-- Início -->
-                                                                                                                                                                                                                                                                                                    <section id="inicio" class="my-5">
-                                                                                                                                                                                                                                                                                                                <div class="inicio-fundo d-flex justify-content-between align-items-center">
-                                                                                                                                                                                                                                                                                                                                <div class="esquerda-conteudo">
-                                                                                                                                                                                                                                                                                                                                                    <h1 class="display-4 text-dark fst-italic fw-bold">Bem-vindo(a) ao meu portfólio artístico!</h1>
-                                                                                                                                                                                                                                                                                                                                                                        <h2 class="mb-3 fw-semibold">Sou <span class="text-primary">Ana Beatriz Oliveira Mota</span>, apaixonada por desenhos e ilustrações.</h2>
-                                                                                                                                                                                                                                                                                                                                                                                            <a href="#sobre" class="btn btn-primary btn-lg botao-inicio fw-semibold">Conheça meu trabalho</a>
-                                                                                                                                                                                                                                                                                                                                                                                                            </div>
-                                                                                                                                                                                                                                                                                                                                                                                                                            
-                                                                                                                                                                                                                                                                                                                                                                                                                                               
-                                                                                                                                                                                                                                                                                                                                                                                                  
-                                                                                                                                                                                                                                                                                                                                                                                                                              
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                </div>
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        </section>
+    <!-- Galeria -->
+    <section id="galeria">
+      <h2 class="text-center pt-5">Minhas Artes</h2>
+      <p class="text-center fst-italic">Cada obra exibida aqui foi criada por mim, Beatriz Oliveira.</p>
+      <div class="container p-3 mt-3">
+        <div class="row g-4 justify-content-center">
+          <div class="col-md-4">
+            <img src="dese1.jpg" alt="Arte criada por Beatriz Oliveira"
+              class="img-fluid rounded-5 shadow-lg" loading="lazy">
+          </div>
+          <div class="col-md-4">
+            <img src="dese2.jpg" alt="Arte criada por Beatriz Oliveira"
+              class="img-fluid rounded-5 shadow-lg" loading="lazy">
+          </div>
+          <div class="col-md-4">
+            <img src="dese3.jpg" alt="Arte criada por Beatriz Oliveira"
+              class="img-fluid rounded-5 shadow-lg" loading="lazy">
+          </div>
+          <div class="col-md-4">
+            <img src="dese4.jpg" alt="Arte criada por Beatriz Oliveira"
+              class="img-fluid rounded-5 shadow-lg" loading="lazy">
+          </div>
+        </div>
+      </div>
+    </section>
 
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                <!-- Sobre -->
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        <section id="sobre" class="my-5 pt-6">
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    <div class="container d-flex align-items-center ">
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    <div class="col-4 d-flex justify-content-center">
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        <img src="ini.webp" class="rounded-pill" alt="Foto de perfil de Ana Beatriz Oliveira Mota"
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                width="273" height="331" loading="lazy">
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                </div>
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                <div class="col-7">
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    <h2>Sobre mim</h2>
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        <p class="p-2">Olá! Meu nome é <strong>Ana Beatriz Oliveira Mota</strong> e sou ilustradora e artista visual. 
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                Minha missão é criar desenhos que inspiram, contam histórias e exploram diferentes estilos artísticos. 
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        Desenvolvo trabalhos autorais e também personalizados para clientes que buscam ilustrações únicas.</p>
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            <p class="p-2">Acredito que a arte é uma forma poderosa de comunicação e expressão. 
+    <!-- Contato -->
+    <section id="contato" class="my-5">
+      <div class="container p-5 d-flex justify-content-center">
+        <div class="col-md-8 col-lg-10 rounded-5 formulario bg-light p-4 shadow-lg">
+          <h2 class="mb-3">Entre em contato</h2>
+          <form>
+            <div class="form-group mb-3">
+              <label for="nome">Nome</label>
+              <input type="text" id="nome" name="nome" class="form-control rounded-3 mt-1"
+                placeholder="Digite seu nome completo">
+            </div>
+            <div class="form-group mb-3">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" class="form-control rounded-3 mt-1"
+                placeholder="Digite seu email">
+            </div>
+            <div class="form-group mb-3">
+              <label for="mensagem">Mensagem</label>
+              <textarea id="mensagem" name="mensagem" rows="4" class="form-control rounded-3 mt-1"
+                placeholder="Digite sua mensagem"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary fw-semibold">Enviar</button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Rodapé -->
+  <footer class="text-center p-3 bg-dark text-light mt-5">
+    <p>Me acompanhe nas redes:</p>
+    <i class="bi bi-instagram mx-2"></i>
+    <i class="bi bi-behance mx-2"></i>
+    <i class="bi bi-dribbble mx-2"></i>
+    <p class="mt-3">© 2025 | Portfólio de Artes - Beatriz Oliveira</p>
+  </footer>
+
+  <script src="script.js" defer></script>
+</body>
+</html>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            <p class="p-2">Acredito que a arte é uma forma poderosa de comunicação e expressão. 
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     Por isso, criei este portfólio para mostrar meu trabalho, minhas técnicas e projetos artísticos que realizei ao longo do tempo.</p>
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     </div>
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 </div>
